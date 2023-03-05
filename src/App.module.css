@@ -1,0 +1,95 @@
+.weatherContainer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/************** SELECTIONS FIELDS **************/
+
+.iconTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.iconTitle > img {
+    width: 30%;
+}
+
+.iconTitle h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.selectContainer {
+    display: flex;
+    gap: 0.5rem;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectContainer > label {
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.select > select {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 150px;
+    color: rgb(255, 213, 0);
+}
+
+select:focus { 
+    outline: none;
+}
+
+/************* DATA FIELDS *************/
+
+.allData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 40px 0px;
+}
+
+.temp {
+    color: white;
+}
+
+.temp h2 {
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.humidityIcon {
+    width: 20px;
+    height: auto;
+    color: white;
+}
+
+.humidity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.humidity > p {
+    font-size: 20px;
+    color: white;
+}
+
+.iconWeather {
+    width: 300px;
+    height: auto;
+}
